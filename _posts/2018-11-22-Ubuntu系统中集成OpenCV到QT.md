@@ -1,7 +1,7 @@
 在Linux系统中，QT是一个很不错的C++的框架，并提供了IDE。很多想学习OpenCV的朋友都想把OpenCV集成到QT中，本文就简单介绍一下怎样在QT中集成OpenCV。  
-###编译安装OpenCV   
+### 编译安装OpenCV   
 参考[官方的教程](https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html?highlight=installation) ，这里就不多说了。  
-###编写QT测试程序
+### 编写QT测试程序
 创建Console程序，在Project文件中加入如下配置：
 ```c
 INCLUDEPATH += /usr/local/include/opencv4
