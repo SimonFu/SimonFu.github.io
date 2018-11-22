@@ -42,5 +42,5 @@ using namespace cv;
     imshow("实例图片", img);
 ```   
 如果一切正常将会输出如下图片。
-![Hell world](./data/image/hello_opencv.png  "Hello OpenCV")  
+![Hell world](/data/image/hello_opencv.png  "Hello OpenCV")  
 注意QT有自己的消息循环，不需要用轮训等待的方式显示图片。
