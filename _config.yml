@@ -59,8 +59,8 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: a264dce7871032070fa7                            #生成的clientID
   clientSecret: 6e599d7bdb3e1a302ccfadb0ca5ecc4e881cfffc    #生成的clientSecret
-  repo: https://simonfu.github.io/    #仓库名称
-  owner: SimonFu    #github用户名
+  repo: SimonFu.github.io    #仓库名称
+  owner: SimonFu              #github用户名
   admin: SimonFu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
