@@ -44,4 +44,4 @@ using namespace cv;
 ```   
 如果一切正常将会输出如下图片。
 ![Hell world](/data/image/hello_opencv.png  "Hello OpenCV")  
-注意QT有自己的消息循环，不需要用轮训等待的方式显示图片。你可以在[这里](/data/codes/hello_opencv.tar.gz) 下载。
+注意QT有自己的消息循环，不需要用轮训等待的方式显示图片。你可以在[这里](/data/codes/hello_opencv.tar.gz)下载。
