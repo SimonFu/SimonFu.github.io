@@ -1,6 +1,11 @@
 在Linux系统中，QT是一个很不错的C++的框架，并提供了IDE。很多想学习OpenCV的朋友都想把OpenCV集成到QT中，本文就简单介绍一下怎样在QT中集成OpenCV。  
 ### 编译安装OpenCV    
-参考[官方的教程](https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html?highlight=installation) ，这里就不多说了。  
+参考[官方的教程](https://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html?highlight=installation) ，安装依赖包的时候会遇到无法找到libjasper-dev包的问题。在Ubuntu中执行如下命令即可：
+```bash
+sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+sudo apt update
+sudo apt install libjasper1 libjasper-dev
+```  
 ### 编写QT测试程序
 创建Console程序，在Project文件中加入如下配置：
 ```c
