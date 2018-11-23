@@ -33,7 +33,8 @@ using namespace cv;
 ```  
 在main函数中加入如下代码：
 ```cpp
-    Mat img = cv::imread(argv[1]); //加载命令行指定的图片
+    Mat img = cv::imread(argv[1]); //加载命令行指定的图片  
+    
     if(img.empty())
     {
         return 0;
